@@ -1,0 +1,291 @@
+body {
+  font-family: "Montserrat" sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.wrapper-page {
+  overflow: hidden;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  color: #000;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  font-size: 20px;
+}
+
+.header .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.header form a {
+  color: #000000;
+  display: block;
+  margin: auto 20px;
+}
+
+.header form a::before {
+  content: url("../img/icon-tel.png");
+  width: 30px;
+  height: 30px;
+  color: #000000;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.header form .btn-outline-primary {
+  color: #224ee3;
+  border: 1px solid #224ee3;
+  border-radius: 5px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.header form .btn-outline-primary:hover {
+  background-color: #224ee3;
+  color: #fff;
+}
+
+.header .header__title {
+  margin-top: 100px;
+}
+
+.header .header__title h1 {
+  font-size: 42px;
+}
+
+.header .header__sub {
+  margin: 30px 0;
+  background-color: #e1fbff;
+}
+
+.header .header__sub .header__sub-content {
+  padding: 40px 0;
+}
+
+.header .header__sub .header__sub-content .sub__content-text h2 {
+  font-size: 35px;
+}
+
+.header .header__sub .header__sub-content .sub__content-text p {
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.examine {
+  margin: 50px 0;
+}
+
+.examine .examine__text h2 {
+  margin-bottom: 50px;
+}
+
+.examine .examine__text .examine__text-list p {
+  margin: 50px 0;
+  font-family: "Roboto" sans-serif;
+}
+
+.examine .examine__text .examine__text-list p span {
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 11px;
+}
+
+.discount {
+  padding: 50px 0;
+  background-color: #000;
+}
+
+.discount .discount__title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.discount .discount__form input {
+  margin: 0 10px;
+  width: 371px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.discount .discount__form input::-moz-placeholder {
+  opacity: 0.54;
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #000000;
+}
+
+.discount .discount__form .btn-primary {
+  width: 300px;
+  height: 60px;
+  background-color: #224ee3;
+  border-radius: 5px;
+  font-family: "Roboto" sans-serif;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.working {
+  margin: 50px 0;
+}
+
+.working .working__title {
+  margin-bottom: 30px;
+}
+
+.working .working__text .working__text-img {
+  background-image: url("../img/working__text-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.working .working__text .working__text-img .working__text-color {
+  color: #000000;
+}
+
+.prices .prices__title {
+  margin-bottom: 50px;
+}
+
+.prices .prices__box img {
+  width: 60px;
+  height: 44px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.prices .prices__box .btn-primary {
+  display: block;
+  margin: 0 auto;
+  width: 235px;
+  background-color: #224ee3;
+  border-radius: 5px;
+}
+
+.lessons {
+  margin: 50px 0;
+  background-color: #e1fbff;
+}
+
+.lessons .lessons__title {
+  margin: 40px;
+}
+
+.lessons .lessons__box img {
+  display: block;
+  margin: 0 auto;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 5px;
+}
+
+.try .try__title {
+  margin: 30px 0 50px 0;
+}
+
+.try .try__box img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.contacts {
+  margin: 50px 0;
+}
+
+.contacts .contacts__form .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts .contacts__form .form input {
+  margin: 10px 0;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.contacts .contacts__form .form .btn-primary {
+  background-color: #224ee3;
+  border-radius: 5px;
+}
+
+.contacts .contacts__map {
+  width: 650px;
+  height: 250px;
+}
+
+.footer {
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer .footer__link a {
+  margin: 0 25px;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.footer .footer__link a:hover {
+  padding: 1px 3px;
+  color: #224ee3;
+  border: 1px solid #224ee3;
+}
+
+.footer .footer__btn .btn:hover {
+  background-color: #224ee3;
+}
+/*# sourceMappingURL=style.css.map */
